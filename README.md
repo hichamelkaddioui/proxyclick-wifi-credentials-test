@@ -52,7 +52,7 @@ The `visitor`, having received its credentials by SMS, can now use the client's 
 
 ## Notes
 
-As you can see, I didn't specifically use the Proxyclick API. This is because the API and backend do only two things in this scenario:
+As you can see, I didn't explicitly use the Proxyclick API. This is because the API and backend do only two things in this scenario:
 
 1. Check a `visitor`, which is already implemented in embedded kiosk apps
 2. Call a webhook, which [seems already possible](https://help.proxyclick.com/visitor-management/webhooks/) and easy enough for Customer Success to do
